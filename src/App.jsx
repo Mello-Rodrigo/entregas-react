@@ -1,8 +1,10 @@
 
 import './App.css';
-import ContenedorProductos from './components/ContenedorProductos/ContenedorProductos';
 import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+//import Contador from './components/Contador/Contador';
+//import Promesas from './components/Promesas/Promesas';
+//import Fetch from './components/Fetch/Fetch';
 
 
 function App() {
@@ -11,8 +13,11 @@ function App() {
       <NavBar/>
       <ItemListContainer greeting="Bienvenidos" />
       {
-      //<ContenedorProductos/>
+        //<Contador inicial={1} stock={10}/>
+        //<Promesas/>
+        //<Fetch/>
       }
+      
     </>
   );
 }

@@ -4,13 +4,14 @@ import './NavBar.css'
 const NavBar = () => {
   return (
     <header>
-         <h1>Chake Indumentaria</h1>
+         <h1>Negro Oscuro</h1>
 
          <nav>
             <ul>
                 <li>Remeras</li>
                 <li>Buzos</li>
                 <li>Camperas</li>
+                <li>Jeans</li>
             </ul>
          </nav>
 
